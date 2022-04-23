@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-root', // Requred, review the index.html :D
+  templateUrl: 'app.component.html', // Requred, review the index.html :D
+  styleUrls: ['app.component.css'] // Optional
 })
 export class AppComponent {
-  title = 'bases';
+  title = 'App Contador';
 }
